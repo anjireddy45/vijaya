@@ -1,0 +1,9 @@
+{
+	"name": "adffile",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "ded32587-3b8a-4fb7-abfe-5d8ec0ed5f45",
+		"tenantId": "c7e91900-837e-448e-ba8a-a4579e2d3a11"
+	}
+}
