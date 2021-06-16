@@ -1,0 +1,41 @@
+{
+	"name": "DelimitedText1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "file.csv",
+				"folderPath": "sqltables",
+				"container": "myfile"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "1",
+				"type": "String"
+			},
+			{
+				"name": "hari",
+				"type": "String"
+			},
+			{
+				"name": "9666559552",
+				"type": "String"
+			},
+			{
+				"name": "2019-09-01 10:10:10.0000000",
+				"type": "String"
+			}
+		]
+	}
+}
